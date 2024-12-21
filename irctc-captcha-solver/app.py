@@ -58,12 +58,12 @@ if __name__ == "__main__":
       "--host",
       type=str,
       default="127.0.0.1",
-      help="Host address to run the server on (default: 0.0.0.0)",
+      help="Host address to run the server on (default: 127.0.0.1)",
   )
   parser.add_argument(
       "--port",
       type=int,
-      default=8000,
+      default=5000,
       help="Port to run the server on (default: 5000)",
   )
   args = parser.parse_args()
